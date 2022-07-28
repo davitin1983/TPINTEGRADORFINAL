@@ -25,13 +25,12 @@ body{
 }
 
 .encabezado{
-    width: 100vw;
-    background-color: cyan(0, 247, 255);
     display: flex;
+    width: 100vw;
+    background-color:cyan 
+    
 }
 
- 
-  
 .encabezado-izquierdo{
     display: flex;
     
@@ -75,7 +74,6 @@ a:link{
     color: black;
     font-weight: bold;
 }  
-    
 .bienvenidos{
     animation-name: Nos;
 animation-duration: 3s;
@@ -89,8 +87,9 @@ animation-direction: alternate;
         opacity: 100%;
         color: orange;
     }
-    100%{opacity: 0%;}
+    100%{opacity: 0%;}   
 }
+
 
 .first-section{
     display: flex;
@@ -119,9 +118,6 @@ footer{
     margin-top: 20px;
     justify-content: center;
     align-items: center;
-    
-    
- 
 }
 
 footer a{
